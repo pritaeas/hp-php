@@ -1,4 +1,6 @@
 <?php
+    // http://www.daniweb.com/web-development/php/threads/387961/php-code-to-show-related-posts-on-a-blog
+
     # execute sql dump manually
     # connect with pdo
 
