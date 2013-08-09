@@ -3,8 +3,7 @@
 <?php
 // To be able to use this example, you have to import the following MySQL dump into your database:
 // sql/tagging-related-articles.sql
-
-// This script will simulate the article list, and an article detail view with related articles.
+// http://www.daniweb.com/web-development/php/threads/387961/php-code-to-show-related-posts-on-a-blog
 
 try {
     $pdo = new PDO('mysql:dbname=test;host=localhost', 'root', '');
