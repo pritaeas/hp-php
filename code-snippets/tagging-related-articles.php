@@ -3,6 +3,8 @@
 <?php
 // To be able to use this example, you have to import the following MySQL dump into your database:
 // sql/tagging-related-articles.sql
+
+// http://www.daniweb.com/web-development/php/code/460663/article-tagging-example
 // http://www.daniweb.com/web-development/php/threads/387961/php-code-to-show-related-posts-on-a-blog
 
 try {
