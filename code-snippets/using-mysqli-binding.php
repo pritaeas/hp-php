@@ -66,13 +66,12 @@ $statement->bind_param('ii', $level, $lastId);
 $result = $statement->execute();
 if ($result)
 {
-    $lastId = $mysqli->insert_id;
     echo '<p>Rows updated: ' . $mysqli->affected_rows . '</p>';
 }
 else
 {
     echo '<p>Update failed</p>';
-    die($mysqli->error);
+    echo $mysqli->error;
 }
 
 $mysqli->close();
